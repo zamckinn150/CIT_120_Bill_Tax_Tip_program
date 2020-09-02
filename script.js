@@ -1,0 +1,9 @@
+var number1=Number(prompt("What is your bill"));
+var taxpercent= .07 
+var tax= taxpercent*number1
+var taxedBill= tax+number1
+var tippercent= .05
+var tip= tippercent*taxedBill
+var finalbill= tip+taxedBill
+var answer= finalbill
+document.body.querySelector("#cool").innerHTML=answer;
